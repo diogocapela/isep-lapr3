@@ -1,0 +1,13 @@
+#lines starting with # should be ignored
+#Column description
+#latitude, longitude are given in decimal degrees e.g. 41.152712, -8.609297
+#elevation is given in metres (m) with no decimal places. When not given, consider 0
+#park description is a descriptive name for the park e.g. "Trindade"
+#max number of electric bicycles - maximum park capability for electric bicycles e.g. 10
+#max number of other bycicles types - maximum park capability for electric bicycles e.g. 20
+#park input voltage - the park input voltage measured in Volts (V) e.g. 220V
+#park input current - the park input current measured in Amperes (A) e.g. 16A
+# latitude;longitude;elevation;park description;max number of electric bicycles;max number of other bicycle types;park input voltage;park input current
+
+
+41.152712;-8.609297;0;Trindade;10;20;220;16;

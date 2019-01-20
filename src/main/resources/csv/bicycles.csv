@@ -1,0 +1,13 @@
+#lines starting with # should be ignored
+#Column description
+#bike description - a descriptive reference for the bike e.g. PT050
+#weight - the bicycle mass in Kg with no decimal places e.g. 12
+#type can be "eletric", "mtb", or "road".
+#park latitude, park longitude - when a bike is parked, the park latitude and longitude are given in decimal degrees e.g. 41.152712, -8.609297
+#max battery capacity - the battery max capacity in kWh e.g. 1
+#actual battery capacity - the percentage with no decimal places of the battery capacity e.g. 75 for a battery with 0.75kWh charge
+#aerodynamic coefficient - bicycle aerodynamic coefficient with 2 decimal places e.g. 1.10
+#bicycle description;weight;type;park latitude;park longitude;max battery capacity;actual battery capacity;aerodynamic coefficient
+
+
+PT050;12;mtb;41.152712;-8.609297;1;75;1.10

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+            fx:controller="lapr.project.ui.DashboardUI">
+    <top>
+        <Label text="Dashboard" BorderPane.alignment="CENTER">
+            <font>
+                <Font name="System Bold" size="20.0"/>
+            </font>
+        </Label>
+    </top>
+    <center>
+        <HBox alignment="CENTER" BorderPane.alignment="CENTER">
+            <Label text="Dashboard" layoutX="126" layoutY="120" minHeight="16" minWidth="69"/>
+        </HBox>
+        <VBox alignment="CENTER" spacing="10.0">
+            <Button onAction="#handleOpenBikes" text="Bikes Manager"/>
+            <Button onAction="#handleOpenParks" text="Parks Manager"/>
+            <Button onAction="#handleOpenRides" text="Rides Manager"/>
+            <Button onAction="#handleOpenUsers" text="Users Manager"/>
+            <Button onAction="#openUCAvailableBikesOfPark" text="UC Available Bikes of Park"/>
+            <Button onAction="#openUCFreeSpacesOfPark" text="UC Free Spaces of Park"/>
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,8 @@
+#lines starting with # should be ignored
+#Column description
+#username for the app - e.g. "john"
+#weight - the user mass in Kg with no decimal places - e.g. 60
+#average speed - the user average speed in m/s with two decimal places e.g 4.17
+#username;weight;average speed
+
+john;60;4.17

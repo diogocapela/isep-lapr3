@@ -1,0 +1,6 @@
+#lines starting with # should be ignored
+#Column description
+#bike description - a descriptive reference for the bike e.g. PT050
+#type can be "electric", "mtb", or "road".
+#actual battery capacity - the percentage with no decimal places of the battery capacity e.g. 75 for a battery with 0.75kWh charge. For not electrical bicycles, it should be 0.
+bicycle description;type;actual battery capacity

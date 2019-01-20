@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+            minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8"
+            fx:controller="lapr.project.ui.MenuUI">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <Menu mnemonicParsing="false" text="Main">
+                <MenuItem mnemonicParsing="false" onAction="#openDashboard" text="Dashboard"/>
+                <SeparatorMenuItem mnemonicParsing="false"/>
+                <MenuItem mnemonicParsing="false" onAction="#exitApp" text="Exit"/>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Manager">
+                <MenuItem mnemonicParsing="false" onAction="#openManagerBikes" text="Bikes Manager"/>
+                <MenuItem mnemonicParsing="false" onAction="#openManagerParks" text="Parks Manager"/>
+                <MenuItem mnemonicParsing="false" onAction="#openManagerRides" text="Rides Manager"/>
+                <MenuItem mnemonicParsing="false" onAction="#openManagerUsers" text="Users Manager"/>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Actions">
+                <MenuItem mnemonicParsing="false" onAction="#openUCAvailableBikesOfPark"
+                          text="UC Available Bikes of Park"/>
+                <MenuItem mnemonicParsing="false" onAction="#openUCFreeSpacesOfPark"
+                          text="UC Free Spaces of Park"/>
+            </Menu>
+        </MenuBar>
+    </top>
+</BorderPane>
